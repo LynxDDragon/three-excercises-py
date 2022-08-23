@@ -3,8 +3,8 @@
 #Meaning that if the cubed number is over 1000 breack the loop.
 
 for num in range(1, 100):
-    out = num ** 2
-    if out < 1000:
+    out = num ** 3
+    if out <= 1000:
         print(out)
 
 #EXERCISE 2
